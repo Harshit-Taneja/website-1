@@ -6,9 +6,13 @@ module.exports = {
   },
   output: {
     path: __dirname,
-    filename: "./bundle/app.bundle.js"
+    filename: "app.bundle.js"
   },
   watch: true,
-
+  module: {
+        loaders: [
+            { test: /\.css$/, loader: "style-loader!css-loader" }
+        ]
+    }
 
 }

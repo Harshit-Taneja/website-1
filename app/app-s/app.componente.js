@@ -15,7 +15,9 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n\n  <div class=\"row\">\n    <div class=\"col-xs-6 col-sm-10 col-md-2 col-lg-12\" style=\"background-color:blue;\">\n      <div class=\"box\">un comentario</div>\n    </div>\n    <div class=\"col-xs-6 col-sm-2 col-md-10 col-lg-12\" style=\"background-color:red;\">\n      <div class=\"box\">un comentario a lado</div>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-xs-1 col-sm col-md col-lg\" style=\"background-color:blue;\">\n      <div >1</div>\n    </div>\n    <div class=\"col-xs-11 col-sm-7 col-md-5 col-lg-1\" style=\"background-color:red;\">\n      <div >2</div>\n    </div>\n  </div>\n\n\n    "
+            encapsulation: core_1.ViewEncapsulation.Native,
+            styleUrls: ['../../sass/styles.scss'],
+            template: "\n\n  <div class=\"row\">\n    <div class=\"col-xs-6 col-sm-10 col-md-2 col-lg-12 div1\">\n      <div class=\"box\">un comentario</div>\n    </div>\n    <div class=\"col-xs-6 col-sm-2 col-md-10 col-lg-12 div2\">\n      <div class=\"box\">un comentario a lado</div>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-xs-1 col-sm col-md col-lg div1\">\n      <div >1</div>\n    </div>\n    <div class=\"col-xs-11 col-sm-7 col-md-5 col-lg-1 div2\">\n      <div >2</div>\n    </div>\n  </div>\n\n\n    "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
